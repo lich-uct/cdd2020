@@ -39,3 +39,32 @@ https://medium.com/@datamove/setup-jupyter-notebook-server-to-start-up-on-boot-a
 3) Get floating IP and give it to your instance
 4) In security groups select port where you wish to be served, for me 8443 is working but try yourself what fits you best
 5) In case your machine is running, restart it
+
+# The project
+Given the situation with indefinite school closure, we can not do our usual workshop-like course. Videoconferencing is also of limited use for the exercises, it would be best if you actually try the scripting yourselves. Therefore, for the time being, our best option is to start working directly on your projects, on a learn-as-you-go basis. This is new for us all, so this impromptu course might be a bit rough around the edges.
+
+## What to expect
+The project, or 'zapoctovy projekt', will involve roughly the following:
+ - Picking a set of known biologically active structures, load and process it using RDkit
+ - Performing a basic analysis of the set, descriptors, scaffolds, fingerprints, similarities, etc.
+ - Comparing the properties of your picked set with other sets
+ - Trying out some standard cheminformatic methods on the sets
+ - Preparing set visualizations
+ - Making a basic classifier related to your picked and prepared dataset
+
+ The extent and exact form of all above points will be determined ad-hoc, depending on time, situation, progress, etc. We will periodically upload jupyter notebooks that describe the steps of the next task, the reasoning behind them, and their demonstration on an example set.
+
+## What to do
+ On your part, please try to apply the workflows onto your particular set, and adapt them for your particular cases. Compare your results to the example case, and to those of your colleagues. We can discuss the results directly in your Jupyter notebooks. If you get stuck at any point, or want some additional information, please do not hesitate to ask - this course is for you.
+
+ The example jupyter notebooks with the workflows will be uploaded into the /exercises folder of the repository. I will upload the first notebook soon.
+
+ Make your own folders in the root of the repository; 'otavat' and 'rodionoa' already have one. Place your own data and notebooks and all other things you need in there, and upload them into this repository at your convenience. You already know git, so this should by no problem... git pull, git commit -m "my message", git push , the usual. Please keep the changes within your own directory, having to merge jupyter notebooks is a pain in the ass.
+
+## Current exercises
+ - [exercises/1_getting_started](exercises/1_getting_started.ipynb): How to parse structures into RDKit, visualize them, run their methods
+ - more soon ;)
+
+## Resources
+ - [Getting started with RDKit in Python](http://www.rdkit.org/docs/GettingStartedInPython.html)
+ - [RDKit documentation](https://www.rdkit.org/docs/)
