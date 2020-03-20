@@ -63,6 +63,7 @@ The project, or 'zapoctovy projekt', will involve roughly the following:
 
 ## Current exercises
  - [exercises/1_getting_started](exercises/1_getting_started.ipynb): How to parse structures into RDKit, visualize them, run their methods
+- [exercises/2_preparing_ligand_set](exercises/2_preparing_ligand_set.ipynb), wherein we pick a target from ChEMBL, download and parse its ligands. Some obligatory ring counting.
  - more soon ;)
 
 ## Resources
