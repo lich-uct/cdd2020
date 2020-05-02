@@ -67,6 +67,7 @@ The project, or 'zapoctovy projekt', will involve roughly the following:
 - [exercises/3_basic_descriptors](exercises/3_basic_descriptors.ipynb), wherein we compute and analyze some descriptors for our sets, and compare the observed values with those of known drugs
 - [exercises/4_drug_likeness](exercises/4_drug_likeness.ipynb), where we use our fancy descriptors to filter ligands based on drug-like properties
 - [exercises/5_substructures_and_filters](exercises/5_substructures_and_filters.ipynb), where we do substructure search, visualization, and tackle some serious PAINS :)
+- [exercises/6_structural_keys](exercises/6_structural_keys.ipynb), where we assemble our substructure queries into structural keys, and look at the already established MACCS keys
 - more soon ;)
 
 ## Resources
