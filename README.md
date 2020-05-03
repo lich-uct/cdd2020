@@ -68,6 +68,7 @@ The project, or 'zapoctovy projekt', will involve roughly the following:
 - [exercises/4_drug_likeness](exercises/4_drug_likeness.ipynb), where we use our fancy descriptors to filter ligands based on drug-like properties
 - [exercises/5_substructures_and_filters](exercises/5_substructures_and_filters.ipynb), where we do substructure search, visualization, and tackle some serious PAINS :)
 - [exercises/6_structural_keys](exercises/6_structural_keys.ipynb), where we assemble our substructure queries into structural keys, and look at the already established MACCS keys
+- [exercises/7_hashed_fingerprints](exercises/7_hashed_fingerprints_ecfp.ipynb), where we go beyond the structural keys into the more generic fingerprint area, especially ECFP
 - more soon ;)
 
 ## Resources
